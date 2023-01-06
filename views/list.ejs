@@ -6,7 +6,7 @@
     <div class="box" id="item">
             <% for( let index = 0; index < list.length; index++ ) { %>
             <div class="item">
-                <input type="checkbox"><p><%= list[index] %> </p>
+                <input type="checkbox"><p><%= list[index].name %> </p>
             </div>
             <% } %>
         <form class="item" action="/" method="post">
